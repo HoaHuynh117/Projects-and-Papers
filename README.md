@@ -1,6 +1,6 @@
 # Projects-and-Papers
 
-## Projekt 1: Datenintegration und Analyse von Bezirksdaten Hamburg
+## Projekt 1: Datenintegration und Analyse von Bezirksdaten Hamburg ("BesterBezirkHamburgs", Dezember 2022)
 
 ### Einleitung
 Dieses Projekt befasst sich mit der Analyse und Bewertung von sieben Bezirken in Hamburg anhand verschiedener Kriterien. Ziel ist es, mithilfe der "Multi-Criteria Decision Analysis (MCDA)" den besten Bezirk zu identifizieren. Dabei wurden mehrere Datensätze integriert, bereinigt und analysiert, um fundierte und visuell ansprechende Ergebnisse zu präsentieren.
