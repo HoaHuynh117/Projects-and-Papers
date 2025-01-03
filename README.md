@@ -1,83 +1,106 @@
-# Portfolio: Data Analysis and Machine Learning Projects
+# Portfolio: Datenanalyse- und Machine-Learning-Projekte
 
-Dieses Repository enthält eine Sammlung von Projekten im Bereich Datenanalyse und maschinelles Lernen, die verschiedene Ansätze und Technologien demonstrieren. 
+Dieses Repository enthält eine Sammlung von Projekten im Bereich Datenanalyse und maschinelles Lernen, die verschiedene Ansätze und Technologien demonstrieren.
 
 ## Projektübersicht
 
-### Projekt 1: Datenintegration und Analyse von 7 Bezirksdaten Hamburg ("BesterBezirkHamburgs", Dezember 2022)
+### Projekt 1: Datenintegration und Analyse von 7 Bezirksdaten in Hamburg  
+**Datei:** `1_BesterBezirkHamburgs.ipynb`  
+**Datum:** Dezember 2022  
 
 #### Einleitung
-Dieses Projekt konzentriert sich auf die Integration und Analyse von Daten, um den besten Bezirk in Hamburg basierend auf mehreren Kriterien zu identifizieren. Mithilfe der "Multi-Criteria Decision Analysis (MCDA)" wurde eine fundierte Bewertung durchgeführt.
+Dieses Projekt konzentriert sich auf die Integration und Analyse von Daten, um den besten Bezirk in Hamburg anhand mehrerer Kriterien zu identifizieren. Mithilfe der Methode „Multi-Criteria Decision Analysis (MCDA)“ wurde eine fundierte Bewertung durchgeführt.
 
 #### Beschreibung
-- **Datenquellen**: Vier Datensätze, darunter allgemeine Bezirksfakten, Flächeninformationen, Nutzungszwecke der Siedlungsfläche und Händlerzahlen aus einer API.
-- **Datenverarbeitung**: Import, Transformation und Bereinigung, einschließlich der Behandlung von Attributskorrelationen und Visualisierung in einem Dashboard.
-- **Ergebnisse**: Der beste Bezirk wurde mithilfe von MCDA ermittelt, und die Ergebnisse sind in der Datei **BesterBezirkHamburgs** dokumentiert.
+- **Datenquellen**:  
+  - Allgemeine Bezirksfakten  
+  - Flächeninformationen  
+  - Nutzungszwecke der Siedlungsfläche  
+  - Händlerzahlen aus einer API  
+- **Datenverarbeitung**:  
+  - Import, Transformation und Bereinigung der Daten  
+  - Umgang mit Attributskorrelationen  
+  - Visualisierung in einem Dashboard  
+- **Ergebnisse**:  
+  Der beste Bezirk wurde mithilfe der MCDA-Methode ermittelt. Die Ergebnisse sind in der Datei **BesterBezirkHamburgs** dokumentiert.
 
 #### Technologien
-- **Datenverarbeitung**: Python (pandas, numpy, requests)
-- **Visualisierung**: Matplotlib, Seaborn, Dash
+- **Datenverarbeitung**: Python (pandas, numpy, requests)  
+- **Visualisierung**: Matplotlib, Seaborn, Dash  
 
 ---
 
-### Projekt 2: Vergleich von Self-Trained und Pre-Trained Modellen bei der Bildregression ("Pawpularity", März 2023)
+### Projekt 2: Vergleich von Self-Trained und Pre-Trained Modellen in der Bildregression  
+**Datei:** `2_Pawpularity.pdf`  
+**Datum:** März 2023  
 
 #### Einleitung
-In diesem Projekt wurden die Leistungen von Self-Trained und Pre-Trained Modellen bei einer Bildregressionsaufgabe verglichen. Ziel war es, den Pawpularity Score – eine Kennzahl für die Attraktivität von Fotos verlassener Haustiere – vorherzusagen, um deren Chancen auf eine Adoption zu erhöhen.
+In diesem Projekt wurden die Leistungen von Self-Trained und Pre-Trained Modellen bei einer Bildregressionsaufgabe verglichen. Ziel war es, den sogenannten Pawpularity-Score – eine Kennzahl für die Attraktivität von Fotos verlassener Haustiere – vorherzusagen, um deren Chancen auf eine Adoption zu erhöhen.
 
 #### Beschreibung
-- **Ansatz**:
-  - Ein Self-Trained Modell basierend auf einem spezifischen CNN-Ansatz.
-  - Pre-Trained Modelle mit ResNet-Architekturen (ResNet50, ResNet101, ResNet152).
-  - Zwei Verlustfunktionen (MSE und MAE) getestet.
-  - Bewertung anhand von RMSE, MAE und Trainingszeit.
-- **Daten**:
-  - 9.912 Haustierbilder mit Pawpularity Scores.
-  - Einheitliche Datenvorbereitung, einschließlich Bildskalierung und Datenaugmentation.
+- **Daten**:  
+  - 9.912 Haustierbilder mit entsprechenden Pawpularity-Scores  
+  - Einheitliche Datenvorbereitung, einschließlich Bildskalierung und Datenaugmentation  
+- **Ansatz**:  
+  - Ein Self-Trained Modell basierend auf einem spezifischen CNN-Ansatz  
+  - Pre-Trained Modelle mit ResNet-Architekturen (ResNet50, ResNet101, ResNet152)  
+  - Test von zwei Verlustfunktionen (MSE und MAE)  
+  - Bewertung anhand von RMSE, MAE und Trainingszeit  
 
-#### Fazit
-- Self-Trained Modelle sind bei spezifischen Aufgaben und begrenzten Ressourcen vorteilhaft.
-- Pre-Trained Modelle eignen sich besser für generische Aufgaben mit ähnlichen Datensätzen.
-- MSE war zuverlässiger als MAE.
-- Ergebnisse sind in dem Paper **Pawpularity.pdf** dokumentiert.
+#### Ergebnisse
+- Self-Trained Modelle eignen sich für spezifische Aufgaben und begrenzte Ressourcen.  
+- Pre-Trained Modelle zeigen Vorteile bei generischen Aufgaben mit ähnlichen Datensätzen.  
+- MSE erwies sich als zuverlässiger als MAE.  
+- Die Ergebnisse sind im Paper **Pawpularity.pdf** dokumentiert.
 
 #### Technologien
-- **Modelltraining**: TensorFlow, Keras
-- **Datenvorbereitung**: Python (pandas, sklearn), ImageDataGenerator
-- **Frameworks**: ResNet-Architekturen (ResNet50, ResNet101, ResNet152)
+- **Modelltraining**: TensorFlow, Keras  
+- **Datenvorbereitung**: Python (pandas, sklearn), ImageDataGenerator  
+- **Frameworks**: ResNet-Architekturen (ResNet50, ResNet101, ResNet152)  
 
 ---
 
-### Projekt 3: XAI ("XAI", Juli 2023)
+### Projekt 3: Erklärbare Künstliche Intelligenz (XAI) in der Wirtschaft  
+**Datei:** `3_XAI.pdf`  
+**Datum:** Juli 2023  
 
 #### Einleitung
-
+Dieses Projekt untersucht Methoden der erklärbaren künstlichen Intelligenz (XAI) zur Einkommensprognose anhand des Census-Datensatzes. Ziel war es, komplexe Modelle verständlicher und transparenter zu machen.
 
 #### Beschreibung
-
-
-#### Technologien
+- **Datensatz**: Census-Einkommensdatensatz  
+- **Ansatz/Technologien**:  
+  - **Facets Dive**: Visualisierung relevanter Merkmale und deren Muster  
+  - **What-If Tools**: Analyse von Fairness und Optimierung durch Manipulation von Datenpunkten und Slicing  
+  - **SHAP**: Intuitive Darstellung der Merkmalbedeutung und partiellen Abhängigkeiten  
+  - **LIME**: Erklärung individueller Vorhersagen durch Ersatzmodelle  
 
 ---
 
-### Projekt 4: Modell drift ("4_*_Drift_*", Von März 2023 bis Juni 2024)
+### Projekt 4: Modell-Drift  
+**Dateien:** `4_*_Drift_*.pdf`  
+**Zeitraum:** März 2023 – Juni 2024  
 
 #### Einleitung
-Ein großes Projekt das in 4 Teile in 4 semester geteilt werden....
-Die arbeitende Masterarbeit basiiret ebenfall auch auf diesem Thema. 
+Dieses umfassende Projekt behandelt das Thema „Modell-Drift“ und ist in vier Teile gegliedert, die über vier Semester hinweg bearbeitet wurden. Es bildet die Grundlage der aktuell geschriebenen Masterarbeit. Im Fokus steht die Python-Bibliothek „Evidently“, die in drei Hauptkomponenten unterteilt ist: Reports, Test Suites und Monitoring-Dashboard.
 
 #### Beschreibung
-- **Forschungswerkstatt 1: Einsteigen "Drift_Report"
-
-- **Grundprojekt: Mit Dashboard arbeit "Drift_Dashboard"**:
- 
-- **Forschungswerkstatt 2: Präsentieren was bisher gemacht wurden in einer hochschulegröße Messe "Drift_Poster"**:
-  
-- **Hauptprojekt: integrationen in einer architektur "Drift_Architektur"**:  
+- **Forschungswerkstatt 1: Evidently Reports (`4_1_Drift_Report.pdf`)**:  
+  - Einführung in das Thema „Modell-Drift“  
+  - Erste Experimente zu Datendrift in Klassifikations- und Regressionsaufgaben (z. B. Brustkrebs-, Housing-Daten)  
+- **Grundprojekt: Evidently Monitoring-Dashboard (`4_2_Drift_Dashboard.pdf`)**:  
+  - Experiment mit Evidently-Dashboards basierend auf dem Census-Datensatz  
+- **Forschungswerkstatt 2: Messe-Präsentation (`4_3_Drift_Poster.pdf`)**:  
+  - Präsentation der bisherigen Ergebnisse auf einer hochschulweiten Messe  
+- **Hauptprojekt: Evidently-Integration in Architektur (`4_4_Drift_Architektur.pdf`)**:  
+  - Implementierung einer ML-Monitoring-Architektur mit Prefect für Batch-Jobs, Evidently für Drift-Analysen und Grafana zur Visualisierung  
 
 #### Technologien
+- **Python**: pandas, sklearn, Evidently  
+- **Workflow-Orchestrierung**: Prefect  
+- **Visualisierung**: Grafana  
 
 ---
 
 ## Kontakt
-Für Fragen oder Feedback zu den Projekten können Sie mich gerne kontaktieren.
+Für Fragen oder Feedback zu den Projekten können Sie mich gerne kontaktieren.  
