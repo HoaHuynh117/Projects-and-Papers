@@ -1,32 +1,59 @@
 # Projects-and-Papers
 
-## Projekt 1: Datenintegration und Analyse von Bezirksdaten Hamburg ("BesterBezirkHamburgs", Dezember 2022)
+# Portfolio: Data Analysis and Machine Learning Projects
 
-### Einleitung
-Dieses Projekt befasst sich mit der Analyse und Bewertung von sieben Bezirken in Hamburg anhand verschiedener Kriterien. Ziel ist es, mithilfe der "Multi-Criteria Decision Analysis (MCDA)" den besten Bezirk zu identifizieren. Dabei wurden mehrere Datensätze integriert, bereinigt und analysiert, um fundierte und visuell ansprechende Ergebnisse zu präsentieren.
+Dieses Repository enthält eine Sammlung von Projekten im Bereich Datenanalyse und maschinelles Lernen, die verschiedene Ansätze und Technologien demonstrieren. 
 
-### Beschreibung
-Im Rahmen dieses Projekts haben wir folgende Schritte durchgeführt:  
-1. **Datenintegration**: 
-   - Es wurden vier Datensätze aus verschiedenen Quellen importiert und transformiert:
-     - Allgemeine Bezirksfakten wie Bevölkerungsdichte und Arbeitslosenquote.
-     - Flächeninformationen, z. B. Anteile für Siedlung, Verkehr, Vegetation und Gewässer.
-     - Nutzungszwecke der Siedlungsflächen wie Wohnen, Industrie oder Erholungsflächen.
-     - Händlerzahlen aus einer API, aufgeteilt nach Kategorien wie Supermärkte oder Drogerien.
-2. **Datenbereinigung**: 
-   - Einheitliche Maßeinheiten und Namenskonventionen wurden sichergestellt, fehlende Werte analysiert und Ausreißer als Extremwerte klassifiziert.  
-3. **Explorative Analyse**: 
-   - Statistische Zusammenfassungen, Korrelationen und Heatmaps wurden erstellt, um redundante Attribute zu identifizieren.  
-4. **Visualisierung**: 
-   - Ein interaktives Dashboard wurde entwickelt, das die skalierten und absoluten Werte der Bezirke übersichtlich darstellt.  
+## Projektübersicht
 
-### Ergebnis
-Durch die Anwendung der "Multi-Criteria Decision Analysis (MCDA)" konnte der beste Bezirk in Hamburg basierend auf den analysierten Kriterien ermittelt werden. Dieses Ergebnis bietet eine fundierte Entscheidungsgrundlage für zukünftige Planungen oder Analysen.  
+### Projekt 1: Datenintegration und Analyse von 7 Bezirksdaten Hamburg ("BesterBezirkHamburgs", Dezember 2022)
 
-### Technologien
+#### Einleitung
+Dieses Projekt konzentriert sich auf die Integration und Analyse von Daten, um den besten Bezirk in Hamburg basierend auf mehreren Kriterien zu identifizieren. Mithilfe der "Multi-Criteria Decision Analysis (MCDA)" wurde eine fundierte Bewertung durchgeführt.
+
+#### Beschreibung
+- **Datenquellen**: Vier Datensätze, darunter allgemeine Bezirksfakten, Flächeninformationen, Nutzungszwecke der Siedlungsfläche und Händlerzahlen aus einer API.
+- **Datenverarbeitung**: Import, Transformation und Bereinigung, einschließlich der Behandlung von Attributskorrelationen und Visualisierung in einem Dashboard.
+- **Ergebnisse**: Der beste Bezirk wurde mithilfe von MCDA ermittelt, und die Ergebnisse sind in der Datei **BesterBezirkHamburgs** dokumentiert.
+
+#### Technologien
 - **Datenverarbeitung**: Python (pandas, numpy, requests)
 - **Visualisierung**: Matplotlib, Seaborn, Dash
-- **Datenquellen**: Excel, API
 
-### Fazit
-Das Projekt zeigt, wie wichtig eine strukturierte Datenintegration und -analyse ist, um komplexe Fragestellungen effizient zu beantworten. Die Entwicklung des Dashboards ermöglicht es, die Ergebnisse leicht verständlich und visuell ansprechend zu präsentieren.
+---
+
+### Projekt 2: Vergleich von Self-Trained und Pre-Trained Modellen bei der Bildregression ("Pawpularity", März 2023)
+
+#### Einleitung
+Dieses Projekt vergleicht die Leistungen von Self-Trained und Pre-Trained Modellen im Kontext einer Bildregressionsaufgabe. Ziel war es, die Attraktivität von Fotos von abandonded Haustier (Pawpularity Score) vorherzusagen, um die chance zu Adoption zu unterstürzen.
+
+#### Beschreibung
+- **Ansatz**:
+  - Ein Self-Trained Modell basierend auf einem spezifischen CNN-Ansatz.
+  - Pre-Trained Modelle mit ResNet-Architekturen (ResNet50, ResNet101, ResNet152).
+- **Daten**:
+  - 9.912 Haustierbilder mit Pawpularity Scores.
+  - Einheitliche Datenvorbereitung, einschließlich Bildskalierung und Datenaugmentation.
+- **Vergleich**:
+  - Zwei Verlustfunktionen (MSE und MAE) getestet.
+  - Bewertung anhand von RMSE, MAE und Trainingszeit.
+
+#### Ergebnisse
+- Das Self-Trained Modell war effizienter und lieferte ähnliche Ergebnisse wie ResNet50 und ResNet101.
+- ResNet152 zeigte Überanpassung und schlechte Leistung.
+- MSE war zuverlässiger als MAE.
+
+#### Fazit
+- Self-Trained Modelle sind bei spezifischen Aufgaben und begrenzten Ressourcen vorteilhaft.
+- Pre-Trained Modelle eignen sich besser für generische Aufgaben mit ähnlichen Datensätzen.
+- Ergebnisse sind in dem Paper **Pawpularity.pdf** dokumentiert.
+
+#### Technologien
+- **Modelltraining**: TensorFlow, Keras
+- **Datenvorbereitung**: Python (pandas, sklearn), ImageDataGenerator
+- **Frameworks**: ResNet-Architekturen (ResNet50, ResNet101, ResNet152)
+
+---
+
+## Kontakt
+Für Fragen oder Feedback zu den Projekten können Sie mich gerne kontaktieren.
