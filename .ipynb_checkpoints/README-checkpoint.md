@@ -29,27 +29,53 @@ In diesem Projekt wurden die Leistungen von Self-Trained und Pre-Trained Modelle
 - **Ansatz**:
   - Ein Self-Trained Modell basierend auf einem spezifischen CNN-Ansatz.
   - Pre-Trained Modelle mit ResNet-Architekturen (ResNet50, ResNet101, ResNet152).
+  - Zwei Verlustfunktionen (MSE und MAE) getestet.
+  - Bewertung anhand von RMSE, MAE und Trainingszeit.
 - **Daten**:
   - 9.912 Haustierbilder mit Pawpularity Scores.
   - Einheitliche Datenvorbereitung, einschließlich Bildskalierung und Datenaugmentation.
-- **Vergleich**:
-  - Zwei Verlustfunktionen (MSE und MAE) getestet.
-  - Bewertung anhand von RMSE, MAE und Trainingszeit.
-
-#### Ergebnisse
-- Das Self-Trained Modell war effizienter und lieferte ähnliche Ergebnisse wie ResNet50 und ResNet101.
-- ResNet152 zeigte Überanpassung und schlechte Leistung.
-- MSE war zuverlässiger als MAE.
 
 #### Fazit
 - Self-Trained Modelle sind bei spezifischen Aufgaben und begrenzten Ressourcen vorteilhaft.
 - Pre-Trained Modelle eignen sich besser für generische Aufgaben mit ähnlichen Datensätzen.
+- MSE war zuverlässiger als MAE.
 - Ergebnisse sind in dem Paper **Pawpularity.pdf** dokumentiert.
 
 #### Technologien
 - **Modelltraining**: TensorFlow, Keras
 - **Datenvorbereitung**: Python (pandas, sklearn), ImageDataGenerator
 - **Frameworks**: ResNet-Architekturen (ResNet50, ResNet101, ResNet152)
+
+---
+
+### Projekt 3: XAI ("XAI", Juli 2023)
+
+#### Einleitung
+
+
+#### Beschreibung
+
+
+#### Technologien
+
+---
+
+### Projekt 4: Modell drift ("4_*_Drift_*", Von März 2023 bis Juni 2024)
+
+#### Einleitung
+Ein großes Projekt das in 4 Teile in 4 semester geteilt werden....
+Die arbeitende Masterarbeit basiiret ebenfall auch auf diesem Thema. 
+
+#### Beschreibung
+- **Forschungswerkstatt 1: Einsteigen "Drift_Report"
+
+- **Grundprojekt: Mit Dashboard arbeit "Drift_Dashboard"**:
+ 
+- **Forschungswerkstatt 2: Präsentieren was bisher gemacht wurden in einer hochschulegröße Messe "Drift_Poster"**:
+  
+- **Hauptprojekt: integrationen in einer architektur "Drift_Architektur"**:  
+
+#### Technologien
 
 ---
 
