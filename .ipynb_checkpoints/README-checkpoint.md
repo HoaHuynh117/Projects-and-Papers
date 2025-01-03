@@ -1,5 +1,3 @@
-# Projects-and-Papers
-
 # Portfolio: Data Analysis and Machine Learning Projects
 
 Dieses Repository enthält eine Sammlung von Projekten im Bereich Datenanalyse und maschinelles Lernen, die verschiedene Ansätze und Technologien demonstrieren. 
@@ -25,7 +23,7 @@ Dieses Projekt konzentriert sich auf die Integration und Analyse von Daten, um d
 ### Projekt 2: Vergleich von Self-Trained und Pre-Trained Modellen bei der Bildregression ("Pawpularity", März 2023)
 
 #### Einleitung
-Dieses Projekt vergleicht die Leistungen von Self-Trained und Pre-Trained Modellen im Kontext einer Bildregressionsaufgabe. Ziel war es, die Attraktivität von Fotos von abandonded Haustier (Pawpularity Score) vorherzusagen, um die chance zu Adoption zu unterstürzen.
+In diesem Projekt wurden die Leistungen von Self-Trained und Pre-Trained Modellen bei einer Bildregressionsaufgabe verglichen. Ziel war es, den Pawpularity Score – eine Kennzahl für die Attraktivität von Fotos verlassener Haustiere – vorherzusagen, um deren Chancen auf eine Adoption zu erhöhen.
 
 #### Beschreibung
 - **Ansatz**:
