@@ -31,7 +31,7 @@ Dieses Projekt konzentriert sich auf die Integration und Analyse von Daten, um d
 ---
 
 ### Projekt 2: Vergleich von Self-Trained und Pre-Trained Modellen in der Bildregression  
-**Datei:** `2_Pawpularity.pdf`  
+**Datei:** `2_Pawpularity`  
 **Datum:** März 2023  
 
 #### Einleitung
@@ -78,7 +78,7 @@ Dieses Projekt untersucht Methoden der erklärbaren künstlichen Intelligenz (XA
 ---
 
 ### Projekt 4: Modell-Drift  
-**Dateien:** `4_*_Drift_*.pdf`  
+**Dateien:** `4_Drift`  
 **Zeitraum:** März 2023 – Juni 2024  
 
 #### Einleitung
