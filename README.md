@@ -79,10 +79,10 @@ Dieses Projekt untersucht Methoden der erklärbaren künstlichen Intelligenz (XA
 
 ### Projekt 4: Modell-Drift  
 **Dateien:** `4_Drift`  
-**Zeitraum:** März 2023 – Juni 2024  
+**Zeitraum:** März 2023 – Sep 2025  
 
 #### Einleitung
-Dieses umfassende Projekt behandelt das Thema „Modell-Drift“ und ist in vier Teile gegliedert, die über vier Semester hinweg bearbeitet wurden. Es bildet die Grundlage der aktuell geschriebenen Masterarbeit. Im Fokus steht die Python-Bibliothek „Evidently“, die in drei Hauptkomponenten unterteilt ist: Reports, Test Suites und Monitoring-Dashboard.
+Dieses umfassende Projekt behandelt das Thema „Modell-Drift“ und ist in vier Teile gegliedert, die über vier Semester hinweg bearbeitet wurden. Es bildet die Grundlage der aktuell geschriebenen Masterarbeit. Im Fokus steht die Python-Bibliothek „Evidently“, die in drei Hauptkomponenten unterteilt ist: Reports, Test Suites und Monitoring-Dashboard. Am Ende September 2025 wurden die vollständige Masterarbeit sowie die dazugehörigen Jupyter Notebooks hinzugefügt.
 
 #### Beschreibung
 - **Forschungswerkstatt 1: Evidently Reports (`4_1_Drift_Report.pdf`)**:  
@@ -94,13 +94,23 @@ Dieses umfassende Projekt behandelt das Thema „Modell-Drift“ und ist in vier
   - Präsentation der bisherigen Ergebnisse auf einer hochschulweiten Messe  
 - **Hauptprojekt: Evidently-Integration in Architektur (`4_4_Drift_Architektur.pdf`)**:  
   - Implementierung einer ML-Monitoring-Architektur mit Prefect für Batch-Jobs, Evidently für Drift-Analysen und Grafana zur Visualisierung  
+- **Masterarbeit (`4_5_Drift_Masterarbeit.pdf` + Jupyter Notebooks)**:
+  - Untersuchung verschiedener Ansätze zur Modelldrift-Erkennung, darunter datenverteilungsbasierte, leistungsbasierte, mehrfachhypothesenbasierte und kontextbasierte Methoden
+  - Theoretische Erläuterung der Algorithmen sowie experimenteller Vergleich hinsichtlich Genauigkeit und Effizienz
 
 #### Technologien
-- **Python**: pandas, sklearn, Evidently  
+- **Python**: pandas, sklearn, Evidently, scikit-multiflow
 - **Workflow-Orchestrierung**: Prefect  
 - **Visualisierung**: Grafana  
 
 ---
+
+### Projekt 5: Happiness Dashboard (Tableau)
+**Dateien:** https://public.tableau.com/app/profile/nhut.hoa.huynh/viz/NhutHoa_Huynh_Happyness_Ver2/Dashboard1
+**Zeitraum:** Sep 2025  
+
+#### Einleitung
+Visualisierung und Analyse zu Faktoren, die sich auf das Wohlbefinden auswirken
 
 ## Kontakt
 Für Fragen oder Feedback zu den Projekten können Sie mich gerne kontaktieren.  
